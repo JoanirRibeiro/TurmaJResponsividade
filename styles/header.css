@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .cabecalho__menu{
@@ -26,6 +27,8 @@
 
 .lista__menu {
     display: none;
+    position: absolute;
+    top: 100%;
 }
 
 .container__botao:checked~.lista__menu{
