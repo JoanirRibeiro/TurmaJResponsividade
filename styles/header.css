@@ -49,12 +49,12 @@
     background-color: var(--roxo-gradiente);
 }
 
-.lista-menu__titulo, .lista-menu__item{
+.lista-menu__título, .lista-menu__ítem{
     padding: 1em;
     background-color: var(--branco);
 }
 
-.lista-menu__titulo{
+.lista-menu__título{
     color: var(--amarelo);
     font-weight: 700;
 }
