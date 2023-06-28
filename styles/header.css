@@ -1,18 +1,11 @@
-.cabeçalho {
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.cabeçalho__menu{
-    display: inline-block;
+.cabeçalho__menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-color:var(--roxo-gradiente) ;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 24px;
-    height: 24px;
+    display: inline-block;
 }
 
 .cabeçalho{
@@ -49,12 +42,12 @@
     background-color: var(--roxo-gradiente);
 }
 
-.lista-menu__título, .lista-menu__ítem{
+.lista-menu__titulo, .lista-menu__item{
     padding: 1em;
     background-color: var(--branco);
 }
 
-.lista-menu__título{
+.lista-menu__titulo{
     color: var(--amarelo);
     font-weight: 700;
 }
