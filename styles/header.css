@@ -49,3 +49,7 @@ display: none;
 .lista__menu-link{
     color: var(--roxo);
 }
+
+@media screen and (min-width: 1024px) {
+
+}
