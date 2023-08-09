@@ -69,15 +69,17 @@ display: none;
         .opcoes {
             display: flex;
         }
+    
         .opcoes__item {
             padding: 0 1em;
             text-transform: uppercase;
             color: var(--preto);
         }
-
-        .opcoes__link{
+    
+        .opcoes__link {
             color: var(--preto);
             text-decoration: none;
+    
         }
 
         }
